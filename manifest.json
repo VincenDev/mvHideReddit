@@ -1,0 +1,15 @@
+{
+  "name": "MV Reddit block",
+  "version": "1.0",
+  "description": "Ocultar post de reddit en mediavida",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.mediavida.com/foro/*"],
+      "js": ["jquery-3.5.1.slim.min.js", "content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
